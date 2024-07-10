@@ -14,8 +14,25 @@
 }
 
 .card {
-  border: 10px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   padding:20px;
+  width:100px;
+  border-radius: 10px;
+}
+
+.card img {
+  width:50px;
+  height:50px;
+}
+
+.board {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:30px 30px;
+}
+
+.scoreboard {
+  text-align: center;
 }
 
 a {
